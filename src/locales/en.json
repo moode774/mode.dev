@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "hero": {
+    "greeting": "Mohammed Abdul Salam",
+    "role": "AI Specialist",
+    "location": "Riyadh, Saudi Arabia",
+    "available": "Open to On-site & Remote",
+    "stats": {
+      "years": "4+ Years with AI Tools",
+      "platforms": "10+ LLM Platforms",
+      "industries": "Multi Industries Served"
+    }
+  },
+  "about": {
+    "title": "Professional Profile",
+    "headline": "AI-Native Specialist.",
+    "description": "I architect intelligent systems and build digital products that solve real-world problems using cutting-edge AI technologies and modern development practices.",
+    "status": "Available for Collaboration",
+    "status_open": "Open",
+    "expertise": "Expertise Areas",
+    "expertise_items": [
+      "AI Strategy & Integration",
+      "Automation & Workflows",
+      "Web & Mobile Development",
+      "Cyber Security & Best Practices",
+      "Cloud & Scalable Architecture"
+    ],
+    "glance": "At a Glance",
+    "stats": [
+      { "value": "7+", "label": "Years of Experience" },
+      { "value": "50+", "label": "AI Projects Delivered" },
+      { "value": "15+", "label": "Web & Mobile Apps Built" },
+      { "value": "100%", "label": "Custom Solutions Tailored" }
+    ],
+    "platforms": "AI Platforms & Tools"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "period": "2022 – Present",
+        "role": "AI Specialist & Operations Manager",
+        "company": "Manufacturing & Interior Design Company",
+        "location": "Riyadh, Saudi Arabia",
+        "bullets": [
+          "Designed and built the company's full corporate website using React, Vite, Tailwind CSS, and Framer Motion — a dark luxury aesthetic with advanced animations and a complete product showcase.",
+          "Developed a React + Vite e-commerce storefront with Odoo ERP backend integration via n8n automation pipelines and JSON-RPC APIs.",
+          "Built an interactive product configurator web application offering 27 room combination options with real-time 3D style rendering for exhibition and client-facing use.",
+          "Deployed a complete AI voice receptionist system using Vapi.ai, handling inbound client inquiries with real-time natural language understanding and automated response routing.",
+          "Built an HR management web application integrating biometric attendance devices with Supabase backend, Cloudflare Workers middleware, and AI-powered workforce analytics dashboards.",
+          "Deployed and managed AI tools across HR, marketing, and operations — including AI-generated content pipelines, automated payroll workflows, and intelligent document processing.",
+          "Led AI-driven marketing campaigns producing cinematic brand visuals and social media content using Midjourney, Higgsfield AI, ElevenLabs, and video AI generation platforms."
+        ]
+      },
+      {
+        "period": "2021 – 2022",
+        "role": "AI & Web Development Consultant",
+        "company": "Freelance",
+        "location": "Remote · Saudi Arabia & GCC",
+        "bullets": [
+          "Developed custom web applications and landing pages for multiple clients using React, Firebase, and modern frontend stacks — delivering responsive, performant production sites.",
+          "Provided AI consulting to SMEs on tool selection and workflow automation using Make.com, ChatGPT, and n8n, enabling measurable productivity gains.",
+          "Designed and deployed custom GPT-powered assistants and prompt engineering frameworks tailored to each client's knowledge base and operational workflows.",
+          "Created AI-assisted HR systems with biometric data integration and intelligent reporting dashboards, significantly reducing manual administrative workload.",
+          "Delivered AI literacy workshops enabling non-technical teams to effectively adopt AI tools and integrate them into daily business processes."
+        ]
+      },
+      {
+        "period": "2020 – 2021",
+        "role": "AI Tools Researcher & Early Adopter",
+        "company": "Independent",
+        "location": "Saudi Arabia",
+        "bullets": [
+          "Systematically evaluated emerging LLMs and generative AI platforms from initial public launch, building deep institutional knowledge of capabilities, limitations, and best use cases.",
+          "Built personal automation ecosystems combining early GPT models, Zapier, and custom scripting for productivity optimization and content generation workflows.",
+          "Developed comprehensive expertise in prompt design, model behavior analysis, hallucination detection, and AI output quality evaluation methodologies."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Notable Projects",
+    "list": [
+      {
+        "name": "E-Commerce Web Platform",
+        "description": "React + Vite storefront with full ERP backend integration, Zustand state management, and AI-powered automation pipelines (Live production system)."
+      },
+      {
+        "name": "Corporate Website",
+        "description": "Full dark-luxury React website with Framer Motion animations, product catalog, and Arabic/English bilingual support."
+      },
+      {
+        "name": "AI Voice Receptionist",
+        "description": "Vapi.ai system handling inbound calls with contextual NLU, automated routing, and seamless handoff workflows."
+      },
+      {
+        "name": "Interactive Product Configurator",
+        "description": "Web application with 27 combination options, real-time rendering, and client-facing exhibition interface."
+      },
+      {
+        "name": "Intelligent HR & Attendance System",
+        "description": "Biometric device integration with cloud backend, AI analytics, and automated payroll processing."
+      },
+      {
+        "name": "AI Marketing Engine",
+        "description": "End-to-end pipeline from creative brief to cinematic brand campaigns using Claude, Midjourney, Higgsfield, and video AI tools."
+      }
+    ]
+  },
+  "skills": {
+    "title": "AI Platforms & Technical Skills",
+    "categories": {
+      "llms": "LLMs",
+      "ai_tools": "AI Tools",
+      "automation": "Automation",
+      "web_dev": "Web Dev",
+      "competencies": "Competencies"
+    },
+    "items": {
+      "llms": ["Claude AI", "ChatGPT / GPT-4o", "Gemini", "Mistral", "LLaMA", "Grok", "Perplexity"],
+      "ai_tools": ["Midjourney", "DALL·E", "Runway", "Higgsfield", "ElevenLabs", "Vapi.ai", "Cursor AI"],
+      "automation": ["n8n", "Make.com", "Zapier", "Odoo ERP", "Webhook Integrations", "JSON-RPC APIs"],
+      "web_dev": ["React", "Vite", "Tailwind CSS", "Framer Motion", "TypeScript", "Supabase", "Firebase", "Cloudflare Workers"],
+      "competencies": ["Prompt Engineering", "AI System Design", "LLM Evaluation", "App Development", "Team Training", "API Integration"]
+    }
+  },
+  "contact": {
+    "phone": "+966 53 396 9116",
+    "email": "mnzar7162@gmail.com",
+    "button": "Get in Touch"
+  }
+}
