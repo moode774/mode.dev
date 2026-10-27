@@ -20,7 +20,7 @@ export const capabilities=[
 // store = official store page. Entries with neither show as "coming soon".
 export const downloads = [
  {id:'radd',platform:'windows',version:'',size:'',store:'https://apps.microsoft.com/detail/9N00D9M9T5L8',storeName:'Microsoft Store'},
- {id:'radd',platform:'linux',version:'0.2.0 preview',size:'',note:{ar:'نسخة تجريبية · Ubuntu/Debian وFedora · ملفات التثبيت غير مؤكدة النشر',en:'Preview · Ubuntu/Debian and Fedora · installers not yet verified as published'}},
+ {id:'radd',platform:'linux',version:'0.2.0 preview',size:'',previewUrl:'https://github.com/moode774/radd/tree/preview/linux-0.2.0',note:{ar:'نسخة تجريبية · Ubuntu/Debian وFedora · ملفات التثبيت غير مؤكدة النشر',en:'Preview · Ubuntu/Debian and Fedora · installers not yet verified as published'}},
  {id:'lastword',version:'',size:'',store:'https://play.google.com/store/apps/details?id=com.mnzapp.letrix',storeName:'Google Play'},
  {id:'nasaq',version:'',size:''},
  {id:'erp',version:'',size:''},
