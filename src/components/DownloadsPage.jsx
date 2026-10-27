@@ -21,7 +21,7 @@ export default function DownloadsPage({ ar }) {
   <div className="container dl-body">
    <div className="dl-filters">{filters.map(([v, l]) => <button key={v} className={filter === v ? 'active' : ''} aria-pressed={filter === v} onClick={() => setFilter(v)}>{l}<small>{v === 'all' ? items.length : items.filter(d => platformOf(d) === v).length}</small></button>)}</div>
    <div className="dl-list" key={filter}>{shown.map((d, i) => {
-    const p = d.p, linux = platformOf(d) === 'linux', win = platformOf(d) === 'windows', href = d.file || d.store, soon = !href;
+    const p = d.p, linux = platformOf(d) === 'linux', win = platformOf(d) === 'windows', href = d.file || d.store || d.previewUrl, soon = !href;
     return <article className="dl-row" key={d.id + (d.platform || '')} style={{ animationDelay: i * 70 + 'ms' }}>
      <img className="dl-icon" src={iconOf(d.id)} alt="" width="72" height="72"/>
      <div className="dl-info">
@@ -30,7 +30,7 @@ export default function DownloadsPage({ ar }) {
       <div className="dl-meta">{d.version && <span>{t('الإصدار', 'Version')} {d.version}</span>}{d.size && <span>{d.size}</span>}{d.storeName && <span>{d.storeName}</span>}{d.note && <span>{ar ? d.note.ar : d.note.en}</span>}</div>
      </div>
      {soon ? <span className="dl-btn soon">{t('قريبًا', 'Coming soon')}</span>
-      : <a className="dl-btn" href={href} {...(d.file ? { download: '' } : { target: '_blank', rel: 'noreferrer' })}>{d.file ? <Download size={17}/> : <ArrowUpRight size={17}/>}{d.file ? t('تحميل', 'Download') : t('من ' + d.storeName, 'Get on ' + d.storeName)}</a>}
+      : <a className="dl-btn" href={href} {...(d.file ? { download: '' } : { target: '_blank', rel: 'noreferrer' })}>{d.file ? <Download size={17}/> : <ArrowUpRight size={17}/>}{d.file ? t('تحميل', 'Download') : d.previewUrl ? t('عرض نسخة لينكس', 'View Linux preview') : t('من ' + d.storeName, 'Get on ' + d.storeName)}</a>}
     </article>;
    })}</div>
    <a className="dl-back" href="#home">{t('العودة للرئيسية', 'Back to home')}<ArrowUpRight size={15}/></a>
