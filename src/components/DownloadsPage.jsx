@@ -19,7 +19,7 @@ export default function DownloadsPage({ ar }) {
    <div className="dl-trust"><span><ShieldCheck size={16}/>{t('روابط رسمية فقط', 'Official links only')}</span><span><Clock size={16}/>{t('تحديثات مستمرة', 'Regular updates')}</span></div>
   </div></div>
   <div className="container dl-body">
-   <div className="dl-filters">{filters.map(([v, l]) => <button key={v} className={filter === v ? 'active' : ''} aria-pressed={filter === v} onClick={() => setFilter(v)}>{l}<small>{v === 'all' ? items.length : items.filter(d => platformOf(d.p) === v).length}</small></button>)}</div>
+   <div className="dl-filters">{filters.map(([v, l]) => <button key={v} className={filter === v ? 'active' : ''} aria-pressed={filter === v} onClick={() => setFilter(v)}>{l}<small>{v === 'all' ? items.length : items.filter(d => platformOf(d) === v).length}</small></button>)}</div>
    <div className="dl-list" key={filter}>{shown.map((d, i) => {
     const p = d.p, linux = platformOf(d) === 'linux', win = platformOf(d) === 'windows', href = d.file || d.store, soon = !href;
     return <article className="dl-row" key={d.id + (d.platform || '')} style={{ animationDelay: i * 70 + 'ms' }}>
